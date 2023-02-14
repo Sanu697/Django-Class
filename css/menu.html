@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Menu</title>
+
+    <style>
+        /*reset*/
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+         }
+         #main-menu{
+            background-color:aliceblue;
+
+         }
+         .menu{
+            list-style:none;
+            display:flex;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+         }
+         /*only .nav-item class belonging to .menu parent will have this setting*/
+         .menu  .nav-item{
+            font-size:1.2;
+            font-weight:bold;
+            background-color: aquamarine;
+            border-radius: 0.5rem;
+            padding:0.5rem 1rem;
+            transition :all 350ms ease-in-out;
+         }
+
+         .menu .nav-item:hover {
+            background-color: aquamarine;
+            box-shadow: 0 0 .5rem #000;
+         }
+         .menu .nav-item .nav-link{
+               text-decoration: none;
+               /*remove underline from a tag */
+            color:black;
+            cursor:pointer;
+         }
+         #footer-menu{
+            padding: 1rem;
+            height:20rem;
+            background-color: transparent;
+            font size: 1rem;
+         }
+         #footer-menu .nav-link{
+            color:#f1ecec;
+         }
+         section{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding:2rem;
+         }
+         .cards img{
+            width: 350px;
+            aspect-ratio: 1/1;
+         }
+         .cards h2{
+            width: 350px;
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <nav id="main menu">
+        <ul class="menu"><nav>
+         <ul class="menu">
+            <li class="nav-item"><a href="#" class="nav-link">Lorem.</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Impedit?</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Nobis!</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Eum!</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Voluptatem?</a></li>
+         </ul>
+        </nav>
+
+        <section>
+         <div class="cards">
+            <img src="http://3.bp.blogspot.com/-2_uQf67bInA/UAFQxIwX8qI/AAAAAAAAAC4/G7mqOd8glAA/s1600/Nature_Flowers_Beautiful_flowers.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+         </div>
+         <div class="cards">
+            <img src="http://3.bp.blogspot.com/-2_uQf67bInA/UAFQxIwX8qI/AAAAAAAAAC4/G7mqOd8glAA/s1600/Nature_Flowers_Beautiful_flowers.jpg" alt="">
+            <h2>Consequuntur voluptas cum asperiores ipsa?</h2>
+         </div>
+         <div class="cards">
+            <img src="http://3.bp.blogspot.com/-2_uQf67bInA/UAFQxIwX8qI/AAAAAAAAAC4/G7mqOd8glAA/s1600/Nature_Flowers_Beautiful_flowers.jpg" alt="">
+            <h2>Rerum illum corporis est vitae.</h2>
+         </div>
+         <div class="cards">
+            <img src="http://3.bp.blogspot.com/-2_uQf67bInA/UAFQxIwX8qI/AAAAAAAAAC4/G7mqOd8glAA/s1600/Nature_Flowers_Beautiful_flowers.jpg" alt="">
+            <h2>Vel suscipit enim natus perferendis.</h2>
+         </div>
+         <div class="cards">
+            <img src="http://3.bp.blogspot.com/-2_uQf67bInA/UAFQxIwX8qI/AAAAAAAAAC4/G7mqOd8glAA/s1600/Nature_Flowers_Beautiful_flowers.jpg" alt="">
+            <h2>Soluta culpa assumenda beatae tempora!</h2>
+         </div>
+         <div class="cards">
+            <img src="http://3.bp.blogspot.com/-2_uQf67bInA/UAFQxIwX8qI/AAAAAAAAAC4/G7mqOd8glAA/s1600/Nature_Flowers_Beautiful_flowers.jpg" alt="">
+            <h2>Odit quae provident rem veniam!</h2>
+         </div>
+        </section>
+        <nav id="foooter-menu">
+         <ul class="menu"><nav>
+            <ul class="menu">
+               <li class="nav-item"><a href="#" class="nav-link">Lorem.</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Sint.</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Aperiam?</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Tempora!</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Magnam?</a></li>
+            </ul>
+         </nav>
+         </ul>
+        </nav>
+      
+
+        </ul>
+
+
+
+        
+        </ul>
+            
+    
+    
+    
+</body>
+</html>
